@@ -1,5 +1,5 @@
 # snort-blocked-ip-analysis-automation
-These scripts automates the retrieval, analysis, and management of Snort(PfSense package) blocked IPs to streamline security monitoring and whitelist management
+These scripts automate the retrieval, analysis, and management of Snort(PfSense package) blocked IPs to streamline security monitoring and whitelist management
 
 check_ip.py downloads the Snort blocked hosts archive, extracts and compares IPs, enriches them using the ipinfo.io API, and saves results to an Excel report with organization-based highlights.
 
